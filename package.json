@@ -1,7 +1,7 @@
 {
   "name": "express-api-framework",
   "version": "0.0.1",
-  "description": "APIs for Zoodel",
+  "description": "Simple Rest API Server (Express+JWT+MongoDB)",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
