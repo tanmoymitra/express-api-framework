@@ -29,7 +29,7 @@ app.use(require('./routers/apiRouter'))
 
 // development error handler
 // will print stacktrace
-/* if (app.get('env') === 'development') {
+if (app.get('env') === 'development') {
   app.use(function(err, req, res, next) {
     res.status(err.status || 500)
     res.render('error', {
@@ -47,7 +47,7 @@ app.use(function(err, req, res, next) {
         error: {}
     })
 })
-*/
+
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express API Server Listening on port ' + app.get('port'));
