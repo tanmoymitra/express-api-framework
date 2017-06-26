@@ -1,12 +1,12 @@
 {
-  "name": "zoodelapisrv",
+  "name": "express-api-framework",
   "version": "0.0.1",
   "description": "APIs for Zoodel",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Tanmoy Mitra",
+  "author": "Tanmoy Mitra<tanmoymitra@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",
